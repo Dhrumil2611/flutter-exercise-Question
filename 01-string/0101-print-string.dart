@@ -1,5 +1,3 @@
-void main() {
-  String WWW = "Rudra It Hub.com";
-    print(WWW.split(''));
-    
+void main(){
+  print('Rudra IT Hub');
 }
