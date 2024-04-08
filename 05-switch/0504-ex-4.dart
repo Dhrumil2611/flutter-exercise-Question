@@ -1,7 +1,7 @@
 void main (){ 
-  int week = 2;
+  int day = 2;
 
-  switch (week) {
+  switch (day) {
     case 1:
       print("monday");
       break; 
