@@ -8,7 +8,7 @@ void main (){
     case <0:
     print("23 is nagative");
     break;
-    default:print("out of range");
+    default:print("def");
     break;
   }
 }
