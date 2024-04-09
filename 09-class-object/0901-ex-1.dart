@@ -1,16 +1,14 @@
 void main (){
-  var student = detailsofstudent();
-  student.display();
+  var object = information();
+  print(object.rollno);
+  print(object.name);
+  print(object.Dob);
+  print(object.mobile);
+  print(object.city);
 
 }
 
-class detailsofstudent {
-
-  void display(){
-   print("01");
-   print("mahi patel");
-   print("01-01-1011");
-   print(9999999999);
-   print("bhavnagar"); 
-   }
+class information {
+int rollno = 01;
+String name = "mahi patel",Dob = "01-01-1011", mobile = "9999999999",city = "bhavnagar";
 }

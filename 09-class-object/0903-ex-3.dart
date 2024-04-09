@@ -1,15 +1,14 @@
 void main(){
-  var cutmor = customordetails();
-  cutmor.display();
+  var custmor = customordetails();
+  print(custmor.bank_name);
+  print(custmor.IFSC_CODE);
+  print(custmor.Address);
+  print(custmor.city);
 
 }
 class customordetails {
- void display(){
-
-print("HDFC");
-print("avenue road");
-print(364011223387);
-print("banglore");
- }
+  String bank_name = "HDFC";
+  int IFSC_CODE= 364011223387;
+  String Address = "avanue road",city = "banglore";
   
 }
