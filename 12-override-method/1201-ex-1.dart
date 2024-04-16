@@ -1,19 +1,18 @@
-void main (){
-var object = B();
-object.dis();
+void main() {
+  var obj = B();
+  obj.display();
 }
-class A  {
-  //@override
-  void dis(){
-    
-    print("gyanguru");
+
+class A {
+  void display() {
+    print('gyanguru');
   }
 }
+
 class B extends A {
   @override
-  void dis(){
-super.dis();
-   print("gyanmanjari");
-
+  void display() {
+    print('gyanmanjari');
+    super.display();
   }
 }
