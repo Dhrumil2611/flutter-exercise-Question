@@ -1,7 +1,8 @@
-
-
 void main(){
-var a =  10;
-assert(a>9);
-print("no error found");
+  var temp = 10;
+
+  assert (temp == 10);
+  
+  print("not error found");
+
 }
